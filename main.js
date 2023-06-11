@@ -1,4 +1,4 @@
-let aprobado=7;
+/* let aprobado=7;
 
 function datosDelAlumno(){
     let nombreAlumno = prompt("Ingrese el nombre del alumno:");
@@ -16,7 +16,7 @@ function notasDelAlumno(datosCompletos){
     while (notaAlumno!=0){
         totalNotas+=notaAlumno;
         cantidad++;
-        notaAlumno = parseFloat(prompt("Ingrese nota del alumno"));
+        notaAlumno = parseFloat(prompt("Ingrese nota del alumno"+"\n para terminar ingrese 0"));
     }
         
     let promedioDelAlumno=totalNotas/cantidad;
@@ -34,7 +34,7 @@ window.addEventListener("load", function () {
     let datosCompletos = datosDelAlumno();
     notasDelAlumno(datosCompletos);
 });
-
+ */
 
 
 
